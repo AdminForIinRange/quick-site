@@ -20,7 +20,7 @@ const OurMission = () => {
           <Box
             mt={["25px", "25px", "0px", "0px", "0px"]}
             borderRadius={"25px"}
-            w={["300px", "400px", "300px", "400px", "500px"]}
+            w={["350px", "400px", "300px", "400px", "500px"]}
             h={["200px", "300px", "500px", "500px", "600px"]}
             bgPos={"center"}
             bgSize={"cover"}
@@ -31,7 +31,7 @@ const OurMission = () => {
           ></Box>
         </HStack>
         <VStack
-          align={["start", "start", "start", "start", "start"]}
+          align={["center", "center", "start", "start", "start"]}
           w={["80%", "70%", "50%", "60%", "40%"]}
           h={"100%"}
         >
@@ -56,11 +56,11 @@ const OurMission = () => {
 
          
         </VStack>
-        <HStack  mr={"35px"} display={["block", "block", "none", "none", "none"]} px={["20px", "20px", "0px", "0px", "0px"]}>
+        <HStack  mr={["0px", "0px", "35px", "35px", "35px"]} display={["block", "block", "none", "none", "none"]} px={["20px", "20px", "0px", "0px", "0px"]}>
           <Box
             mt={["25px", "25px", "0px", "0px", "0px"]}
             borderRadius={"25px"}
-            w={["300px", "400px", "300px", "400px", "500px"]}
+            w={["350px", "400px", "300px", "400px", "500px"]}
             h={["200px", "300px", "500px", "500px", "600px"]}
             bgPos={"center"}
             bgSize={"cover"}

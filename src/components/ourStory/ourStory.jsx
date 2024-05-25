@@ -15,7 +15,7 @@ const OurStory = () => {
         color={"#303030"}
       >
         <VStack
-          align={["start", "start", "start", "start", "start"]}
+          align={["center", "center", "start", "start", "start"]}
           w={["80%", "70%", "50%", "60%", "40%"]}
           h={"100%"}
         >
