@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 import { ChakraProvider } from "@chakra-ui/react";
@@ -24,6 +25,10 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
           rel="stylesheet"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet"
+        ></link>
       </head>
       <body className="RootLayout">
         <ChakraProvider>{children}</ChakraProvider>

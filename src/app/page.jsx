@@ -5,8 +5,13 @@ import Hero from "@/components/hero/hero";
 const page = () => {
   return (
     <>
-     <Navbar />
-     <Hero />
+      <Box w={"100%"} h={"100%"} bgColor={"#F6EFE5"}>
+        <Navbar />
+
+      
+          <Hero />
+
+      </Box>
     </>
   );
 };
