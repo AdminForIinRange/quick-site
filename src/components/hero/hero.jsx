@@ -44,7 +44,7 @@ const Hero = () => {
             borderBottomLeftRadius={"25px"}
             borderTopRightRadius={"25px"}
             borderTopLeftRadius={["25px", "25px", "200px", "200px", "200px"]}
-            w={["350px", "350px", "400px", "400px", "500px"]}
+            w={["350px", "350px", "400px", "400px", "600px"]}
             h={["200px", "300px", "500px", "500px", "600px"]}
             bgPos={"center"}
             bgSize={"cover"}
