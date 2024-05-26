@@ -5,6 +5,7 @@ import Hero from "@/components/hero/hero";
 import OurStory from "@/components/ourStory/ourStory";
 import OurMission from "@/components/ourMission/ourMission";
 import WhyUs from "@/components/whyUs/whyUs";
+import Service from "@/components/service/service";
 const page = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const page = () => {
         <OurStory />
         <OurMission />
         <WhyUs />
+        <Service />
       </Box>
     </>
   );
