@@ -9,7 +9,7 @@ import Service from "@/components/service/service";
 const page = () => {
   return (
     <>
-      <Box w={"100%"} h={"100%"} bgColor={"#F6EFE5"}>
+      <Box w={"100%"} h={"100%"} bgColor={"#ffffffff"}>
         <Navbar />
 
         <Hero />
